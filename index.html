@@ -13,6 +13,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
 <body>
+ 
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+</script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('YXN1a2E6ZTlmZTM5M2EtNzA3ZC00MmNlLWFkYWYtYmZmYWNjMTVlOWZj')
+            .withButton({"color":"#377BBE","icon":""})
+            .withCustomCommonUrl('https://chat.blip.ai/')
+            .build();
+        }
+    })();
+</script>
+                                
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
